@@ -151,6 +151,11 @@ p {
   height: 250px;
   margin: 10px;
   border: 5px solid var(--pri-color);
+  transform: rotate(5deg);
+}
+
+.gallery img:hover {
+  transform: scale(1.15);
 }
 
 .intro {
