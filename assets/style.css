@@ -1,3 +1,8 @@
+:root {
+  --pri-color: #008080;
+  --sec-color: #ffc300;
+  --ter-color: #2d3438;
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,20 +10,20 @@
 }
 
 body {
-  color: #ffffff;
   font-size: Helvetica, Arial, sans-serif;
 }
 
 /* navbar */
 header {
   padding: 20px 35px;
-  background-color: #008080;
+  background-color: var(--pri-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 header h1 {
@@ -27,7 +32,6 @@ header h1 {
   color: #ffffff;
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #008080;
 }
 
 .navbar {
@@ -50,7 +54,7 @@ header h1 {
 }
 
 .navbar ul li a:hover {
-  background: #ffc300;
+  background: var(--sec-color);
   color: #ffffff;
   box-shadow: 0 0 10px white;
   border-radius: 15px;
@@ -86,16 +90,25 @@ header h1 {
   top: 90%;
   left: 80%;
 }
+.home-subtitle {
+  font-family: monospace;
+  text-align: center;
+  text-align: center;
+  margin: 25px 0px 0px 0px;
+  font-size: 1.75rem;
+}
 
 .headings {
   font-family: monospace;
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-align: center;
-  margin: 25px 0px 0px 0px;
+  margin: 25px 0px 20px 0px;
+  color: var(--pri-color);
+  border-bottom: 2px solid var(--pri-color);
+  padding-bottom: 5px;
 }
 
 /* About me section*/
-
 #about-me {
   display: flex;
   flex-direction: column;
@@ -103,7 +116,6 @@ header h1 {
   padding: 20px;
   margin-bottom: 50px;
 }
-
 .profilePic {
   display: flex;
 }
@@ -113,13 +125,10 @@ header h1 {
   height: 400px;
 }
 
-.myIntro {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  padding: 10px;
+#home h2,
+p {
+  color: black;
 }
-
 /* My work */
 
 #work {
@@ -141,6 +150,62 @@ header h1 {
   width: 370px;
   height: 250px;
   margin: 10px;
+  border: 5px solid var(--pri-color);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+
+.intro h2 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+/* footer */
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--pri-color);
+  color: #2d3438;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer ul li a {
+  color: #2d3438;
+  padding: 10 15px;
+  font-size: 1.5rem;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  background: var(--sec-color);
+  color: #ffffff;
+  box-shadow: 0 0 10px white;
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 /* Media query for smaller desktop screens and smaller */
