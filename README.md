@@ -9,6 +9,8 @@ Create a portfolio website introducing myself and my work. Along with my contact
 ![Alt text](assets/screenshots/1.png)
 ![Alt text](assets/screenshots/2.png)
 ![Alt text](assets/screenshots/3.png)
+![Alt text](assets/screenshots/4.png)
+![Alt text](assets/screenshots/5.png)
 
 # TECHNOLOGIES USED
 
