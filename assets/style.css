@@ -26,6 +26,8 @@ header {
   z-index: 1;
 }
 
+/* Header head styling */
+
 header h1 {
   font-weight: bold;
   font-size: 36px;
@@ -44,6 +46,7 @@ header h1 {
   align-items: center;
   list-style: none;
 }
+/* navbar */
 
 .navbar ul li a {
   color: #2d3438;
@@ -173,20 +176,22 @@ p {
 /* footer */
 
 footer {
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: var(--pri-color);
   color: #2d3438;
   text-align: center;
   flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 7px;
 }
 
 footer h2 {
   font-weight: bold;
   font-size: 2rem;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 footer ul {
