@@ -12,7 +12,6 @@ Create a portfolio website introducing myself and my work. Along with my contact
 ![Alt text](assets/screenshots/4.png)
 ![Alt text](assets/screenshots/5.png)
 ![Alt text](assets/screenshots/5.png)
-![Alt text](assets/screenshots/musicSlayers.png)
 
 # TECHNOLOGIES USED
 
